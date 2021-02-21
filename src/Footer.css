@@ -1,0 +1,19 @@
+.footer{
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(139, 109, 109);
+    margin-top: 50px;
+    /* opacity: .5; */
+}
+#foo{
+    width: 100vw;
+    height: 100%;
+    display: flex !important;
+   justify-content: space-around !important;
+   background-color:rgb(139, 109, 109);
+}
+.MuiBottomNavigationAction-root
+{
+    min-width: 30px !important;
+    padding: 15px 6px 8px 6px !important;
+}
