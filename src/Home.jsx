@@ -25,18 +25,11 @@ function Home() {
                 <div className="comp">
                     Competitive Programmer
                  </div>
-                <div className="resume">
-
-                        <Button
-                            className="btn"
-                            variant="contained"
-                            color="default"
-                            //   className={classes.button}
-                            onClick={downloadFile}
-                            startIcon={<CloudUploadIcon />}>
-                            Download CV
-
-                         </Button>
+                <div className="resume shadow-lg rounded-3">
+                 <button className="btn" onClick={downloadFile}>
+                     <CloudUploadIcon className="m-2" style={{fill:"red",fontSize:"30px"}}/>
+                     Download CV
+                 </button>
                 </div>
             </div>
         </div>

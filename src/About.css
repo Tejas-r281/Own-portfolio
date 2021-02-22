@@ -1,27 +1,43 @@
 .about{
     width: 100vw;
     /* height: auto; */
-    max-height: 108vh;
+    max-height: 100vh;
     position: relative;
     /* background-color: red; */
-    background-color: red;
+
     display: flex;
     justify-content: center;
    align-items: center;
+   /* animation: background 5s linear infinite alternate-reverse; */
+}
+@keyframes background{
+    0%{
+
+        background-color: red;
+        transform: translateY(50px);
+    }
+    50%{
+        background-color: white;
+    }
+    100%{
+        background-color: green;
+        transform: translateY(-29px);
+    }
 }
 .about::after{
     content: "";
     position:absolute;
-    background: url("https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/07/shutterstock_582803470.jpg?w=750");
+    background: url("./background.jpg");
     top: 0;
     left: 0;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 100%;
+    min-height: 100%;
+    /* max-height: 100%; */
     width: 100%;
     background-position: center center;
     object-fit: contain;
-    opacity: .6;
+    opacity: .7;
 }
 .heading{
     text-align: center;
@@ -35,8 +51,8 @@
 .heading>span::after{
     content: "";
     position: absolute;
-    width: 15%;
-    min-width: 120px;
+    width: 10%;
+    min-width: 110px;
     height: .05rem;
     bottom: -5px;
     background-color: green;
@@ -49,6 +65,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+
+}
+.round{
+    position: absolute;
+    height: 120%;
+    width: 120%;
+    border-radius:500px;
+    top: -30px;
+    left: -10%;
+
+    z-index: -1;
+    /* animation: circle3  4s linear infinite; */
+    border: 2px solid blue;
+
+
 }
 .pic{
     max-height: 80%;
@@ -59,24 +91,15 @@
     border: 3px solid red;
     position: relative;
     box-shadow: 0 0 10px 10px white ;
+    /* animation: circle  4s ease-in-out infinite; */
+    margin-top: 30px !important;
+    /* animation: circle1  4s ease-in-out infinite; */
+
 }
-/* .line
-{
-    z-index: 20 !important;
-    color: white;
-    background-color: white;
-    width:100%;
-    height: 10px;
-} */
-.pic::after{
-    content: "";
-    position: absolute;
-    background-color: green;
-    bottom: -5px;
-    left: 0;
-    width: 100%;
-    height: 4px;
-}
+
+
+
+
 
 .pic>.img{
     height: 100%;
@@ -84,6 +107,12 @@
     object-fit: contain;
     object-position: center;
     border-radius: 500px;
+    /* position: sticky; */
+    position: relative;
+    z-index: 12;
+    /* transform: translate3d(100px) ;
+    perspective: 800px; */
+    /* margin-top: 20px !important; */
 }
 .bottom >div{
     letter-spacing: .20rem;
@@ -100,8 +129,189 @@
     color: white;
     opacity: 1;
 }
-@media only screen and (max-width: 600px)  {
+@media only screen and (max-width: 2992px)  {
+    .round{
+         top: -40px;
+         /* height: 140%;
+         width: 140%; */
+    }
+}
+@media only screen and (max-width: 1457px)  {
+    .round{
+         top: -40px;
+         /* height: 140%;
+         width: 140%; */
+    }
+}
+@media only screen and (max-width: 1384px)  {
+    .round{
+         top: -30px;
+         /* height: 140%;
+         width: 140%; */
+    }
+}
+@media only screen and (max-width: 1173px)  {
+    .round{
+         top: -28px;
+         /* height: 140%;
+         width: 140%; */
+    }
+}
+
+@media only screen and (max-width: 994px)  {
+    .round{
+         top: -34px;
+         height: 130%;
+         width: 130%;
+         left: -14%;
+    }
+    .lower{
+        margin-bottom: 240px !important;
+    }
+    .content{
+        margin-top: 250px;
+    }
     .pic{
-        height: 100%;
+        margin-top: 1rem !important;
+        height: 40%;
+        width: 35%;
+    }
+
+}
+
+@media only screen and (max-width: 770px)  {
+     .round{
+         top: -30px;
+         height: 140%;
+         width: 138%;
+         left: -20%;
+    }
+    .pic{
+        height: 30%;
+        width: 30%;
+        margin-top: 20px !important;
+    }
+
+}
+@media only screen and (max-width: 610px)  {
+    .round{
+        top: -29px;
+        height: 130%;
+        width: 135%;
+        left: -17%;
+   }
+   .pic{
+       height: 36%;
+       width: 36%;
+       margin-top: 20px !important;
+   }
+
+}
+@media only screen and (max-width: 530px)  {
+    .round{
+        top: -25px;
+        height: 130%;
+        width: 135%;
+        left: -19%;
+   }
+   .pic{
+       height: 30%;
+       width: 35%;
+       margin-top: 20px !important;
+   }
+
+}
+
+
+
+
+@media only screen and (max-width: 485px)  {
+     .round{
+         top: -25px;
+         height: 130%;
+         width: 130%;
+         left: -15%;
+    }
+    .pic{
+        height: 30%;
+        width: 40%;
+        margin-top: 20px !important;
+    }
+    .upper>h2{
+        font-weight: 200;
+        font-size: 1.5rem;
+        color:rgb(157, 245, 204);
+        margin-top: 10px;
+    }
+    .lower>h4{
+        font-size: 1rem;
+    }
+
+}
+@media only screen and (max-width: 430px)  {
+    /* .content{
+        margin-top: 300px;
+    } */
+    .round{
+        top: -30px;
+        height: 140%;
+        width: 140%;
+        left: -19%;
+   }
+   .pic{
+       height: 30%;
+       width: 45%;
+       /* margin-top: 20px !important; */
+   }
+
+
+    .upper>h2{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 378px)  {
+
+    .round{
+        top: -25px;
+        height: 140%;
+        width: 140%;
+        left: -19%;
+   }
+    .pic{
+        height: 35%;
+        width: 40%;
+    }
+    .content{
+        margin-top: 100px !important;
+    }
+}
+@keyframes circle3{
+    0%{
+        transform: rotate(0deg);
+        /* rotate: 120deg; */
+        background-color: red;
+        border: 5px dashed white;
+    }
+    50%{
+        border: 5px dashed blue;
+    }
+    75%{
+        border: 5px dashed black;
+    }
+    100%{
+      transform: rotate(360deg);
+      /* rotate: 360deg; */
+      border: 5px dashed green;
+      /* transform: translateX(-225px); */
+    }
+}
+@keyframes circle1{
+    0%{
+        /* transform: rotate(0deg); */
+        /* background-color: red; */
+    }
+    100%{
+      /* transform: rotate(360deg); */
+      box-shadow: 0 0 10px 10px black;
     }
 }

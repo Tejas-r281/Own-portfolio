@@ -1,0 +1,22 @@
+.skill>p{
+    color: blue;
+    font-size: 1.5rem;
+    letter-spacing: .20rem;
+}
+.gyan{
+    /* animation: up 5s linear infinite alternate-reverse; */
+}
+@keyframes up{
+    0%{
+        transform: translateY(-35px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+@media only screen and (max-width: 992px){
+    .skill>p{
+        font-size: 1rem;
+        letter-spacing: .02rem;
+    }
+}
