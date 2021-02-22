@@ -9,6 +9,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Slider from '@material-ui/core/Slider';
 import "./Skills.css";
 import Avatar from '@material-ui/core/Avatar';
+import Tooltip from '@material-ui/core/Tooltip';
 
 
 
@@ -209,10 +210,19 @@ function Skills() {
                     </div>
                     <hr className="mt-3"/>
                     <div className="row">
+
                         <div className="col-12 d-flex justify-content-between align-items-center  pt-4 ">
-                        <Avatar alt="Remy Sharp" src="./codeforces.jpg" />
-                        <Avatar alt="Remy Sharp" src="" />
-                        <Avatar alt="Remy Sharp" src="https://i.pinimg.com/736x/b4/6e/54/b46e546a3ee4d410f961e81d4a8cae0f.jpg" />
+                        <Tooltip title="Spoj" interactive>
+
+                       <a href="https://www.spoj.com/users/kya_bantai/" target="_blank"> <Avatar alt="Remy Sharp" src="https://stx1.spoj.com/gfx/spoj-fb.jpg" /></a>
+                       </Tooltip>
+                       <Tooltip title="Codechef" interactive>
+                       <a href="https://www.codechef.com/users/akshu30" target="_blank">
+                        <Avatar alt="Remy Sharp" src="https://i.pinimg.com/originals/c5/d9/fc/c5d9fc1e18bcf039f464c2ab6cfb3eb6.jpg" /></a></Tooltip>
+                        <Tooltip title="Codeforces" interactive>
+                        <a href="https://codeforces.com/profile/whiteWalkr" target="_blank">
+                        <Avatar alt="Remy Sharp" src="https://i.pinimg.com/736x/b4/6e/54/b46e546a3ee4d410f961e81d4a8cae0f.jpg" /></a>
+                        </Tooltip>
                         </div>
                     </div>
                 </div>

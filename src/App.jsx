@@ -15,20 +15,31 @@ import Contact from './Contact'
 
 
 function App() {
-    return (
-        <>
-           <Navbar/>
-           <Home/>
-           <About/>
+  return (
+    <>
+    <div className="a">
+      <Navbar />
+      </div>
+      <div className="b">
+      <Home />
+      </div>
+      <div className="c">
+      <About />
+      </div>
+      <div className="d">
+      <Skills />
+      </div>
+      {/* <Education /> */}
+      <div className="e">
+      <Contact />
+      </div>
+      <div className="f">
+      <Footer />
+      </div>
 
-             <Skills/>
-             <Education/>
-           <Contact/>
-           <Footer/>
 
-
-        </>
-    )
+    </>
+  )
 }
 
 export default App
