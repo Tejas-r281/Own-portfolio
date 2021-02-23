@@ -59,3 +59,20 @@
         /* height: auto; */
         /* color: yellow; */
   /* }  */
+  .spinner{
+      margin-left: 10px;
+      font-size: 40px;
+      color: red;
+      animation: spinners 2ms ease-in infinite ;
+      position: absolute;
+      /* opacity: .5; */
+  }
+  @keyframes spinners
+  {
+      0%{
+          transform: rotate(0deg);
+      }
+      100%{
+          transform: rotate(359deg);
+      }
+  }

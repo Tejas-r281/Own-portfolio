@@ -6,9 +6,10 @@ import Projects from './Projects';
 import About from "./About";
 import Footer from './Footer';
 import "./Public.css";
-import "./Java";
+
 import Home from "./Home";
-import Contact from './Contact'
+import Contact from './Contact';
+import Test from "./Test";
 
 // import { Redirect, Route, Switch } from 'react-router-dom';
 // import Home from './Home';
@@ -20,20 +21,23 @@ function App() {
     <div className="a">
       <Navbar />
       </div>
-      <div className="b">
+      <div className="a">
       <Home />
       </div>
-      <div className="c">
+      <div className="a">
       <About />
       </div>
-      <div className="d">
+      <div className="a">
       <Skills />
       </div>
       {/* <Education /> */}
-      <div className="e">
+      <div className="a">
       <Contact />
       </div>
-      <div className="f">
+      {/* <div className="a container">
+        <Test/>
+      </div> */}
+      <div className="a">
       <Footer />
       </div>
 
