@@ -1,3 +1,4 @@
+
 import React from 'react'
 var totalHeight = 0;
 const sliders= document.querySelectorAll('.slides');
@@ -23,6 +24,30 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   // Pass in the class name of the element you want to minus from the height calculation
   calculateTotalHeightMinusElement("myDivClass");
+  const pic = document.querySelectorAll('.imgsection');
+
+// console.log(hover);
+  // pic.addEventListener('mouseover',(e)=>{
+  //   // console.log("ineter");
+  //   hover.classList.remove('cover');
+  // });
+  // pic.addEventListener('mouseout',(e)=>{
+  //   // console.log("ineter");
+  //   hover.classList.add('cover');
+  // });
+
+  pic.forEach((element)=>{
+    // console.log(element);
+    element.addEventListener('mouseover',(e)=>{
+      const hover=element.querySelector('.hover');
+      hover.classList.remove('cover');
+    })
+    element.addEventListener('mouseout',(e)=>{
+      const hover=element.querySelector('.hover');
+      hover.classList.add('cover');
+    })
+  })
+
 });
 const style= document.createElement('style');
 const head = document.getElementsByTagName('head')[0];

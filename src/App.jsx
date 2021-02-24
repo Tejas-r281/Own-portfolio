@@ -27,11 +27,14 @@ function App() {
       <div className="a">
       <About />
       </div>
-      <div className="a">
+      <div className="aa">
       <Skills />
       </div>
       <div className="a">
       <Education />
+      </div>
+      <div className="a">
+        <Projects/>
       </div>
       <div className="a">
       <Contact />

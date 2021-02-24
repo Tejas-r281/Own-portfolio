@@ -7,7 +7,7 @@ function Contact() {
             <div className="heading m-4   ">
               <span className="rounded shadow p-3">Contact me</span>
             </div>
-            <form className="container shadow d-flex justify-content-center flex-column align-items-center form  ">
+            <form className="container shadow d-flex justify-content-center flex-column align-items-center form   ">
                 <div className="row d-flex justify-content-center align-items-center flex-column  mb-3">
                     <div className="col-12">
                         <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Name</label>

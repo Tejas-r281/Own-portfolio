@@ -3,7 +3,9 @@
     font-size: 1.5rem;
     letter-spacing: .20rem;
 }
-.gyan{
+.aa{
+    /* z-index: -20 !important;
+    position: relative; */
     /* animation: up 5s linear infinite alternate-reverse; */
 }
 @keyframes up{

@@ -1,13 +1,65 @@
 import React from 'react'
+import "./Projects.css";
+import "./Projectslist";
 
 function Projects() {
     return (
-        <div className="container section" id="project">
-            <div className="bg-danger">
-                Projects ipsum dolor sit amet consectetur, adipisicing elit. Tenetur ea, libero distinctio tempora dignissimos ducimus dolor et. Eaque eveniet aperiam dolor optio tempora ipsa sit repellendus iusto, quis obcaecati ut, adipisci voluptatum eligendi. Dolorem ut recusandae porro aperiam assumenda itaque blanditiis tempore esse rem ex. Aut facilis aliquid maxime fugiat provident, incidunt sint, corporis cupiditate unde vero delectus. Modi dolor inventore fugiat repudiandae debitis incidunt sit doloribus aperiam autem perferendis mollitia accusamus voluptates obcaecati eaque recusandae vel ratione aliquam ea pariatur sapiente deserunt, labore impedit minus. Modi ea blanditiis, dicta ex magni pariatur necessitatibus reprehenderit illo enim cum iusto optio quam totam voluptate aperiam consectetur doloribus hic eius quaerat animi, iure laborum tenetur? Maxime, cumque nesciunt voluptatem ad vero, reiciendis odit facilis vel ducimus molestiae commodi quae nihil eligendi sequi eos adipisci! Veritatis aspernatur odio culpa nihil voluptatum suscipit quis fugiat eveniet neque, impedit alias illo! Explicabo, id placeat! Non molestias rem illum optio ducimus nemo, quas, dolorum odio quod nulla, molestiae est. Delectus obcaecati quaerat eius. Nesciunt, et. Harum perferendis voluptates veritatis, blanditiis sed voluptatibus neque quidem, inventore impedit modi in odio ea. Ratione consequatur earum beatae ut reiciendis consequuntur possimus, et inventore! Fugiat iste voluptatibus in earum rem cum atque voluptatem nam adipisci excepturi odit aut veritatis dolore dolorum suscipit, ex, exercitationem quia ab ut repellendus vero assumenda! Ullam, necessitatibus voluptate vel nostrum, numquam repudiandae accusamus pariatur natus ad voluptatibus quidem voluptas excepturi. Est provident, a facere dolorem perferendis eius similique, doloribus impedit voluptatem quam nulla accusamus architecto consectetur, aut animi nostrum saepe ipsam nemo blanditiis aliquid? Officia vero esse unde assumenda porro eligendi atque quam. Fuga minus aspernatur nemo amet accusamus vel explicabo accusantium quod eum tenetur. Doloremque fugiat totam provident dolorem suscipit sapiente alias iusto at maxime magnam aliquam delectus ut consequuntur neque hic, error saepe animi asperiores necessitatibus. Atque veritatis, consequatur quo, cum quae esse quas iure dolorem debitis in vel dolorum? Dolor animi praesentium eaque odit libero voluptates excepturi sunt, temporibus autem harum. Animi iusto adipisci quae quos libero odit! Veritatis, recusandae quas facilis harum excepturi minima animi sapiente quod atque sunt aperiam cumque deserunt quam in ullam, dolorum, nostrum eos aut error voluptatum cupiditate possimus dolor perferendis fugit! Ex vel est itaque laudantium architecto eaque assumenda asperiores culpa alias quos! Harum quam minus illum soluta asperiores blanditiis delectus, provident pariatur sint itaque laborum repellendus ipsa numquam distinctio sapiente facere consequuntur? Iure aut provident repellat laboriosam. Recusandae amet facere fuga quos pariatur fugit porro iusto unde, officia, facilis magni dolor qui saepe velit tempore dolorum consequuntur earum culpa. Cumque ea dolore et molestiae, obcaecati repellat error suscipit doloremque velit accusantium nobis dolorum impedit corrupti aspernatur possimus, dignissimos vel? Excepturi natus ullam, nihil eveniet quasi laboriosam mollitia sequi ab earum laborum voluptate unde eligendi iusto obcaecati impedit quam ratione reprehenderit quaerat nostrum beatae. Cumque est quia velit officia, necessitatibus quaerat a ullam fuga quidem odio ad ea similique ex reprehenderit! Perferendis iste, consectetur aliquam error quidem sed ab culpa praesentium odit suscipit magnam fugiat sint!
-            </div>
+        <>
+            <div className="heading "><span className="p-5">
+                Recent Projects</span></div>
+            <div className="container shadow-lg ">
+                <div className="row add ">
+                    <div className="col-md-6 col-lg-4 ad">
+                        <div className="imgsection ">
+                            {/* <div className="details ">
+                                <h3 className="text-center">Project 1</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, at.</p>
+                            </div> */}
+                            <div className="hover cover">
+                                <h1 className="text-center">Me hi</h1>
+                            </div>
+                            <div className="pic1 ">
 
-        </div>
+                                <img src="https://media.mehrnews.com/d/2017/11/15/4/2636520.jpg" alt="" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div className="col-md-6 col-lg-4 ad">
+                        <div className="imgsection ">
+                            {/* <div className="details ">
+                                <h3 className="text-center">Project 1</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, at.</p>
+                            </div> */}
+                            <div className="hover cover">
+                                <h1 className="text-center">Me hi</h1>
+                            </div>
+                            <div className="pic1 ">
+
+                                <img src="https://media.mehrnews.com/d/2017/11/15/4/2636520.jpg" alt="" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div className="col-md-6 col-lg-4 ad">
+                        <div className="imgsection ">
+                            {/* <div className="details ">
+                                <h3 className="text-center">Project 1</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, at.</p>
+                            </div> */}
+                            <div className="hover cover">
+                                <h1 className="text-center">Me hi</h1>
+                            </div>
+                            <div className="pic1 ">
+
+                                <img src="https://media.mehrnews.com/d/2017/11/15/4/2636520.jpg" alt="" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </>
     )
 }
 
