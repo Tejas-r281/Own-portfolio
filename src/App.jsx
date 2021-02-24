@@ -30,7 +30,9 @@ function App() {
       <div className="a">
       <Skills />
       </div>
-      {/* <Education /> */}
+      <div className="a">
+      <Education />
+      </div>
       <div className="a">
       <Contact />
       </div>
