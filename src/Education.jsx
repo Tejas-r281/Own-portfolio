@@ -43,12 +43,11 @@ export default function ControlledAccordions() {
           id="panel1bh-header"
         >
           <Typography className={classes.heading}>Sept 2009 <span className="text-danger w-50"><ArrowRightAltIcon/></span>  March 2012</Typography>
-          <Typography className={classes.secondaryHeading}>Hostel Life</Typography>
+          <Typography className={classes.secondaryHeading}>ADARSH VIDYA BHARTI, BARBIGHA (BIHAR)</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat. Aliquam eget
-            maximus est, id dignissim quam.
+             In this time period i did academic activity in hostel. This tenure was Golden life for me because from this hostel i started academic journey . And from this hostel i got slected for Netarhat in the year of 2012. For more details about the hostel <a href="https://www.facebook.com/avbbarbigha/" target="_blank"> Click here</a>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -65,8 +64,7 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Donec placerat, lectus sed mattis semper, neque lectus feugiat lectus, varius pulvinar
-            diam eros in elit. Pellentesque convallis laoreet laoreet.
+          Netarhat Residential School is very famous school in india . I did secondary education from here . I scored 89.5% in the 10th board . For more details about Netarhat <a href="https://en.wikipedia.org/wiki/Netarhat_Residential_School" target="_blank" rel="noopener noreferrer">Click here</a>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -83,8 +81,7 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros,
-            vitae egestas augue. Duis vel est augue.
+           In the begning of 2016 , i decided to prepare for the IIT-JEE examination although my Science background was not so good. For this region i took admission in Fitjee South delhi  in the year of 2016 and In the year of 2018 , i  was just able to cross the cutoff of JEE MAIN.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -102,8 +99,7 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros,
-            vitae egestas augue. Duis vel est augue.
+            Taking one more chance i went to Kota for preparing IIT-JEE and took admission in vibrant academy . And in the year of 2019 , i was able to score enough marks to get adimission in governmental college.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -120,8 +116,7 @@ export default function ControlledAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit amet egestas eros,
-            vitae egestas augue. Duis vel est augue.
+           And in the year of 2019 i took admission in one of the best NIT in india named IIEST Shibpur in INFORMATION TECHNOLOGY branch . For details about the college <a href="https://en.wikipedia.org/wiki/Indian_Institute_of_Engineering_Science_and_Technology,_Shibpur" target="_blank" rel="noopener noreferrer"> Click here</a>
           </Typography>
         </AccordionDetails>
       </Accordion>

@@ -6,7 +6,7 @@ import Projects from './Projects';
 import About from "./About";
 import Footer from './Footer';
 import "./Public.css";
-
+import Projectsmath from './Projectsmath';
 import Home from "./Home";
 import Contact from './Contact';
 import Test from "./Test";
@@ -26,6 +26,7 @@ function App() {
       </div>
       <div className="a">
       <About />
+
       </div>
       <div className="aa">
       <Skills />
@@ -35,6 +36,7 @@ function App() {
       </div>
       <div className="a">
         <Projects/>
+        {/* <Projectsmath/> */}
       </div>
       <div className="a">
       <Contact />

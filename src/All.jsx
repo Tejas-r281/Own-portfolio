@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded",function(event){
     const content= document.querySelectorAll('.a');
-    console.log(content);
+    // console.log(content);
     window.addEventListener('scroll',(e)=>{
         content.forEach((element)=>{
             // console.log(element);
