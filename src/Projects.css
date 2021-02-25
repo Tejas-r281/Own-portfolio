@@ -1,24 +1,34 @@
+.all_content{
+    max-height: 100vh;
+    /* height: 200px; */
+    max-width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add{
+    display: flex ;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+    max-height: 160vh;
+    width: 100vw;
+}
+.ad{
+    position: relative;
+
+}
 .imgsection{
-    height: 80vh;
-    width: 60vw;
+    /* width: 33vw; */
     position: relative;
-
-
 }
-.details{
-    /* z-index: -5; */
-    position: relative;
-    background: white;
-}
+
 .pic1{
     height: 100%;
     width: 100%;
-    /* background: red !important; */
     overflow: hidden;
-   /* margin: 10px; */
-   /* border-radius: 20px; */
-   /* margin-top: -30px; */
-   /* padding-bottom: -20px !important; */
+
 
 
 }
@@ -27,17 +37,16 @@
     width: 100%;
     object-position: center center;
     object-fit: contain;
-    /* border-radius: 40px; */
+
     overflow: hidden;
-    /* z-index: 3; */
+  
     position: relative;
-    /* pointer-events: all; */
+
 
 }
 .pic1>img:hover{
     transform: scale(1.2);
-    /* height: 80%;
-    margin-top: 20px; */
+
 }
 .cover{
     display: none;
@@ -46,18 +55,12 @@
     height: 100%;
     width: 100%;
    position: absolute;
+   top: 0;
+   left: 0;
     background: yellow;
     /* margin:4px; */
     z-index: 5;
     transition: all 2s;
-    /* margin-right: 100px !important; */
+    opacity: .5;
 }
-.ad{
-   /* width: 25%; */
-}
-.add{
-    display: flex;
-    /* width: 100%; */
-    justify-content: space-between;
-    align-items: center;
-}
+

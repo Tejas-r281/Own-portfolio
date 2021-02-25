@@ -5,11 +5,11 @@ import "./Projectslist";
 function Projects() {
     return (
         <>
-            <div className="heading "><span className="p-5">
+            <div className="heading m-4 "><span className="p-5">
                 Recent Projects</span></div>
-            <div className="container shadow-lg ">
-                <div className="row add ">
-                    <div className="col-md-6 col-lg-4 ad">
+            <div className="container all_content shadow-lg  ">
+                <div className="row add container ">
+                    <div className="col-md-6 col-lg-4 ad my-2 ">
                         <div className="imgsection ">
                             {/* <div className="details ">
                                 <h3 className="text-center">Project 1</h3>
@@ -25,7 +25,7 @@ function Projects() {
                         </div>
 
                     </div>
-                    <div className="col-md-6 col-lg-4 ad">
+                    <div className="col-md-6 col-lg-4 ad my-2 ">
                         <div className="imgsection ">
                             {/* <div className="details ">
                                 <h3 className="text-center">Project 1</h3>
@@ -41,7 +41,7 @@ function Projects() {
                         </div>
 
                     </div>
-                    <div className="col-md-6 col-lg-4 ad">
+                    <div className="col-md-6 col-lg-4 ad my-2 ">
                         <div className="imgsection ">
                             {/* <div className="details ">
                                 <h3 className="text-center">Project 1</h3>
@@ -57,6 +57,8 @@ function Projects() {
                         </div>
 
                     </div>
+
+
                 </div>
             </div>
         </>
