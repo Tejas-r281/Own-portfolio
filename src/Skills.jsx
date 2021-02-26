@@ -25,7 +25,7 @@ function Skills() {
     const [counter, setCounter] = React.useState(0);
     React.useEffect(() => {
         const timer =
-            counter <= 100 && setInterval(() => setCounter(counter +5),.1);
+            counter <= 40 && setInterval(() => setCounter(counter +5),.1);
         return () => clearInterval(timer);
     }, [counter]);
     const [counter1, setCounter1] = React.useState(0);
@@ -37,7 +37,7 @@ function Skills() {
     const [counter2, setcounter2] = React.useState(0);
     React.useEffect(() => {
         const timer =
-            counter2 <= 100 && setInterval(() => setcounter2(counter2 +5),.1);
+            counter2 <= 90 && setInterval(() => setcounter2(counter2 +5),.1);
         return () => clearInterval(timer);
     }, [counter2]);
     const [counter4, setcounter4] = React.useState(0);
@@ -49,31 +49,31 @@ function Skills() {
     const [counter5, setcounter5] = React.useState(0);
     React.useEffect(() => {
         const timer =
-            counter5 <= 60 && setInterval(() => setcounter5(counter5 +5),.1);
+            counter5 <= 90 && setInterval(() => setcounter5(counter5 +5),.1);
         return () => clearInterval(timer);
     }, [counter5]);
     const [counter6, setcounter6] = React.useState(0);
     React.useEffect(() => {
         const timer =
-            counter6 <= 60 && setInterval(() => setcounter6(counter6 +5),.1);
+            counter6 <= 90 && setInterval(() => setcounter6(counter6 +5),.1);
         return () => clearInterval(timer);
     }, [counter6]);
     const [counter7, setcounter7] = React.useState(0);
     React.useEffect(() => {
         const timer =
-            counter7 <= 60 && setInterval(() => setcounter7(counter7 +5),.1);
+            counter7 <= 80 && setInterval(() => setcounter7(counter7 +5),.1);
         return () => clearInterval(timer);
     }, [counter7]);
     const [counter8, setcounter8] = React.useState(0);
     React.useEffect(() => {
         const timer =
-            counter8 <= 90 && setInterval(() => setcounter8(counter8 +5),.1);
+            counter8 <= 80 && setInterval(() => setcounter8(counter8 +5),.1);
         return () => clearInterval(timer);
     }, [counter8]);
     const [counter9, setcounter9] = React.useState(0);
     React.useEffect(() => {
         const timer =
-            counter9 <= 100 && setInterval(() => setcounter9(counter +5),.1);
+            counter9 <= 50 && setInterval(() => setcounter9(counter +5),.1);
         return () => clearInterval(timer);
     }, [counter9]);
     return (
@@ -98,7 +98,7 @@ function Skills() {
                                     defaultValue={80}
                                     getAriaValueText={valuetext}
                                     step={10}
-                                    valueLabelDisplay={counter <= 100 ? "on" : "auto"}
+                                    valueLabelDisplay={counter <= 40 ? "on" : "auto"}
                                     aria-labelledby="discrete-slider-custom"
                                     id="10"
                                 />
@@ -106,7 +106,7 @@ function Skills() {
                         </div>
                     </div>
                     <div className="col-4 d-flex justify-content-center align-items-center ">
-                        <Rating name="customized-5" precision={0.5} defaultValue={5} max={5}
+                        <Rating name="customized-5" precision={0.5} defaultValue={1.5} max={5}
                             style={{ color: "green" }} disabled />
                     </div>
                 </div>
@@ -125,7 +125,7 @@ function Skills() {
                                     defaultValue={80}
                                     getAriaValueText={valuetext}
                                     step={10}
-                                    valueLabelDisplay={counter < 80 ? "on" : "auto"}
+                                    valueLabelDisplay={counter1 < 80 ? "on" : "auto"}
                                     aria-labelledby="discrete-slider-custom"
                                     id="10"
                                 />
@@ -133,7 +133,7 @@ function Skills() {
                         </div>
                     </div>
                     <div className="col-4 d-flex justify-content-center align-items-center ">
-                        <Rating name="customized-5" defaultValue={5} max={5}
+                        <Rating name="customized-5" defaultValue={3.5} precision={.5} max={5}
                             style={{ color: "green" }} disabled />
                     </div>
                 </div>
@@ -152,7 +152,7 @@ function Skills() {
         defaultValue={80}
         getAriaValueText={valuetext}
         step={10}
-        valueLabelDisplay={counter<=100?"on":"auto"}
+        valueLabelDisplay={counter2<=90?"on":"auto"}
         aria-labelledby="discrete-slider-custom"
         id="10"
                                       />
@@ -160,7 +160,7 @@ function Skills() {
                         </div>
                     </div>
                     <div className="col-4 d-flex justify-content-center align-items-center ">
-                        <Rating name="customized-5" defaultValue={5} max={5}
+                        <Rating name="customized-5" precision={0.5} defaultValue={4.5} max={5}
                             style={{ color: "green" }} disabled />
                     </div>
                 </div>
@@ -179,7 +179,7 @@ function Skills() {
         defaultValue={80}
         getAriaValueText={valuetext}
         step={10}
-        valueLabelDisplay={counter<80?"on":"auto"}
+        valueLabelDisplay={counter4<80?"on":"auto"}
         aria-labelledby="discrete-slider-custom"
         id="10" />
                             </div>
@@ -205,14 +205,14 @@ function Skills() {
         defaultValue={80}
         getAriaValueText={valuetext}
         step={10}
-        valueLabelDisplay={counter<60?"on":"auto"}
+        valueLabelDisplay={counter5<95?"on":"auto"}
         aria-labelledby="discrete-slider-custom"
         id="10" />
                             </div>
                         </div>
                     </div>
                     <div className="col-4 d-flex justify-content-center align-items-center ">
-                        <Rating name="customized-5" precision={0.5} defaultValue={2.5} max={5}
+                        <Rating name="customized-5" precision={0.5} defaultValue={4.5} max={5}
                             style={{ color: "green" }} disabled />
                     </div>
                 </div>
@@ -231,14 +231,14 @@ function Skills() {
         defaultValue={80}
         getAriaValueText={valuetext}
         step={10}
-        valueLabelDisplay={counter<60?"on":"auto"}
+        valueLabelDisplay={counter6<94?"on":"auto"}
         aria-labelledby="discrete-slider-custom"
         id="10"/>
                             </div>
                         </div>
                     </div>
                     <div className="col-4 d-flex justify-content-center align-items-center ">
-                        <Rating name="customized-5" precision={0.5} defaultValue={3.5} max={5}
+                        <Rating name="customized-5" precision={0.5} defaultValue={4.5} max={5}
                             style={{ color: "green" }} disabled />
                     </div>
                 </div>
@@ -257,14 +257,14 @@ function Skills() {
         defaultValue={80}
         getAriaValueText={valuetext}
         step={10}
-        valueLabelDisplay={counter<60?"on":"auto"}
+        valueLabelDisplay={counter7<80?"on":"auto"}
         aria-labelledby="discrete-slider-custom"
         id="10"  />
                             </div>
                         </div>
                     </div>
                     <div className="col-4 d-flex justify-content-center align-items-center ">
-                        <Rating name="customized-5" precision={0.5} defaultValue={3.5} max={5}
+                        <Rating name="customized-5" precision={0.5} defaultValue={4} max={5}
                             style={{ color: "green" }} disabled />
                     </div>
                 </div>
@@ -283,14 +283,14 @@ function Skills() {
         defaultValue={80}
         getAriaValueText={valuetext}
         step={10}
-        valueLabelDisplay={counter<90?"on":"auto"}
+        valueLabelDisplay={counter8<80?"on":"auto"}
         aria-labelledby="discrete-slider-custom"
         id="10"   />
                             </div>
                         </div>
                     </div>
                     <div className="col-4 d-flex justify-content-center align-items-center ">
-                        <Rating name="customized-5" precision={0.5} defaultValue={4.5} max={5}
+                        <Rating name="customized-5" precision={0.5} defaultValue={3.5} max={5}
                             style={{ color: "green" }} disabled />
                     </div>
                 </div>
@@ -310,14 +310,14 @@ function Skills() {
                                   defaultValue={80}
                                   getAriaValueText={valuetext}
                                   step={10}
-                                  valueLabelDisplay={counter<100?"on":"auto"}
+                                  valueLabelDisplay={counter9<50?"on":"auto"}
                                   aria-labelledby="discrete-slider-custom"
                                   id="10"   />
                             </div>
                         </div>
                     </div>
                     <div className="col-4 d-flex justify-content-center align-items-center ">
-                        <Rating name="customized-5" defaultValue={5} max={5}
+                        <Rating name="customized-5" defaultValue={2} max={5}
                             style={{ color: "green" }} disabled />
                     </div>
                     <hr className="mt-3" />
