@@ -13,7 +13,7 @@ const Projectsmath=(pros)=>{
             </a>
         </div>
         <div className="pic1 ">
-            <img className=" pic2 rounded-2 " src={pros.src} alt="sorry image not available"/>
+            <img className=" pic2 rounded-2 " src={process.env.PUBLIC_URL + pros.src} alt="sorry image not available"/>
             {/* <h1 className="text-center">raushan kumar</h1> */}
         </div>
 

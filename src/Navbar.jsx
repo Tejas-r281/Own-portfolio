@@ -48,7 +48,7 @@ function Navbar() {
         <>
             <nav className="navbar  bg-transparent fixed-top container   navbar-expand-lg navbar-light bg-light" id="navbar">
                 <div className="container-fluid " id="padding">
-                    <Avatar className="m-3 display " id="logo" alt="Remy Sharp" src="https://scontent.fixr3-1.fna.fbcdn.net/v/t1.0-9/88988972_669712247167197_534366460735127552_o.jpg?_nc_cat=100&ccb=3&_nc_sid=09cbfe&_nc_ohc=nB2KEHwCGlwAX_aNWzU&_nc_ht=scontent.fixr3-1.fna&oh=a118e7369cca2d3f5aadf26def395f6d&oe=605CB7A0" />
+                    <Avatar className="m-3 display " id="logo" alt="Remy Sharp" src={process.env.PUBLIC_URL + 'images/navbar.jpg'} />
                     <a className="navbar-brand" href="#Home">Portfolio
                     <FlareIcon className="spinner display" id="ram" />
                     </a>

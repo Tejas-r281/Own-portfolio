@@ -42,7 +42,7 @@ function About() {
                                     {/* <div className="round ">
 
                                     </div> */}
-                                    <img className="img mt-5" alt="Remy Sharp" src="https://scontent.fixr3-1.fna.fbcdn.net/v/t1.0-9/96128996_712464202892001_551431297810038784_o.jpg?_nc_cat=102&ccb=3&_nc_sid=8bfeb9&_nc_ohc=x3loHkaM3dgAX9PRMuL&_nc_ht=scontent.fixr3-1.fna&oh=55fcf51b86a0c551d61ba298791d56ab&oe=605D5CDC" />
+                                    <img className="img mt-5" alt="Image not available at this moment" src={process.env.PUBLIC_URL + 'images/about.jpg'}/>
                                 </div>
                                 <div className=" mb-lg-5 bottom d-flex justify-content-center align-items-center flex-column  ">
                                     <div className="text-black-50">  Competitive Programmer <span>||</span> FrontEnd developer</div>
