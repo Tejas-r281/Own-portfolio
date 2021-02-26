@@ -24,21 +24,21 @@ function App() {
       <div className="a">
       <Home />
       </div>
-      <div className="a">
+      <div className="a" id="about">
       <About />
 
       </div>
-      <div className="aa">
+      <div className="aa" id="skills">
       <Skills />
       </div>
-      <div className="a">
+      <div className="a" id="education">
       <Education />
       </div>
-      <div className="a">
+      <div className="a" id="projects">
         <Projects/>
         {/* <Projectsmath/> */}
       </div>
-      <div className="a">
+      <div className="a" id="contact">
       <Contact />
       </div>
       {/* <div className="a container">

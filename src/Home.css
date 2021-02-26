@@ -10,8 +10,9 @@
     background-color: white !important;
     width: 100vw;
     height: auto;
-    box-shadow: ;
+    /* box-shadow: ; */
 }
+
 .home{
     display: flex;
     align-items: center;
@@ -45,9 +46,101 @@
 #root{
     overflow: hidden;
 }
+#hero{
+    /* background: blue */
+}
+#hero h1{
+    display: block;
+    width: fit-content;
+    color: transparent;
+    animation: text_reveal 0.5s ease forwards;
+    animation-delay: 1s;
+    position: relative;
+    font-size: 4rem;
+}
+#hero h1:nth-child(1){
+    animation-delay: 1s;
+}
+#hero h1:nth-child(2){
+    animation-delay: 2s;
+}
+#hero h1:nth-child(3){
+
+    animation: text_reveal_text 0.5s ease forwards;
+    animation-delay: 3s;
+}
+#hero h1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: crimson;
+    animation: text_reveal_box 1s ease;
+    animation-delay: 0.5s;
+
+}
+#hero h1:nth-child(1) span{
+  animation-delay: .5s;
+}
+#hero h1:nth-child(2) span{
+    animation-delay: 1.5s;
+}
+ #hero h1:nth-child(3) span{
+    animation-delay: 2.5s;
+}
+.dis{
+    font-size: 2rem !important;
+}
+
+/* .cta{
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color:transparent;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: .4s ease ;
+    transition-property: background-color, color;
+    border-radius: 10px;
+}
+ .cta:hover{
+    color: green;
+    background-color: rgb(243, 236, 238);
+} */
+#hero .hero{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: flex-start;
+}
+@keyframes text_reveal_box{
+    10%{
+        width: 100%;
+        left: 0;
+    }
+
+    100%{
+        width: 0;
+        left: 100%;
+    }
+}
+@keyframes text_reveal{
+    100%{
+        color: black;
+    }
+}
+@keyframes text_reveal_text{
+    100%{
+        color: rgb(233, 145, 145);
+    }
+}
 #Home::after{
     content: "";
-    background:url("https://scontent.fpat3-2.fna.fbcdn.net/v/t1.0-9/c0.55.1024.535a/s843x403/75317309_779253242526908_4116923296509853696_o.jpg?_nc_cat=107&ccb=3&_nc_sid=e3f864&_nc_ohc=1brCg_LzIw8AX-2Cr4O&_nc_ht=scontent.fpat3-2.fna&tp=28&oh=7e4f38e48fc814ea4c26974bd7eb7101&oe=60570047");
+    background:url("https://wallpaperaccess.com/full/1947431.jpg");
     position: absolute;
     object-fit:contain;
     object-position: 100% 100%;
@@ -69,7 +162,7 @@
 	/*Big smartphones [426px -> 600px]*/
     #Home::after{
         /* transform: translateX(-200px); */
-        background: url("https://scontent.fpat3-1.fna.fbcdn.net/v/t1.0-9/28467996_420044845114418_6789258936988984603_n.jpg?_nc_cat=109&ccb=3&_nc_sid=a4a2d7&_nc_ohc=o6tBcmMi5SwAX-ABiwN&_nc_ht=scontent.fpat3-1.fna&oh=d7bd7b27c7fcf74ea2c7cfee800c75e9&oe=60593614");
+        background: url("https://toppng.com/uploads/preview/the-best-desktop-and-mobile-device-web-application-web-development-roadmap-for-beginners-11562994107vff2jubs7n.png");
     }
     .home>div{
         font-size: 1.5rem;

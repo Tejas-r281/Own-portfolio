@@ -34,7 +34,7 @@ function About() {
                                 {/* <div className="round ">
 
                                     </div> */}
-                                    <img className="img mt-5" alt="Remy Sharp" src="https://scontent.fpat3-1.fna.fbcdn.net/v/t1.0-0/c0.0.600.600a/p600x600/123942340_1077561166029446_1689730246366936844_o.jpg?_nc_cat=109&ccb=3&_nc_sid=09cbfe&_nc_ohc=Ti6K1sUdzPIAX-Ia24Q&_nc_ht=scontent.fpat3-1.fna&tp=27&oh=05a34519446c006da64e9acf29c8d14d&oe=6057C0B8" />
+                                    <img className="img mt-5" alt="Remy Sharp" src="https://scontent.fixr3-1.fna.fbcdn.net/v/t1.0-9/96128996_712464202892001_551431297810038784_o.jpg?_nc_cat=102&ccb=3&_nc_sid=8bfeb9&_nc_ohc=x3loHkaM3dgAX9PRMuL&_nc_ht=scontent.fixr3-1.fna&oh=55fcf51b86a0c551d61ba298791d56ab&oe=605D5CDC" />
                                 </div>
                                 <div className=" mb-lg-5 bottom d-flex justify-content-center align-items-center flex-column  ">
                                     <div className="text-black-50">  Competitive Programmer <span>||</span> FrontEnd developer</div>
