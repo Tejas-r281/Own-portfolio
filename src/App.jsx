@@ -24,21 +24,28 @@ function App() {
       <div className="a">
       <Home />
       </div>
-      <div className="a" id="about">
+      <div className="a" id="about"  data-aos="zoom-out-up"
+    data-aos-offset="50"
+    data-aos-duration="1500">
       <About />
 
       </div>
-      <div className="aa" id="skills">
+      <div className="aa" id="skills" data-aos="fade-left">
       <Skills />
       </div>
-      <div className="a" id="education">
+      <div className="a" id="education" data-aos="fade-right" data-aos="fade-up"
+    data-aos-offset="250"
+    data-aos-duration="1000"
+    >
       <Education />
       </div>
       <div className="a" id="projects">
         <Projects/>
         {/* <Projectsmath/> */}
       </div>
-      <div className="a" id="contact">
+      <div className="a" id="contact" data-aos="fade-right"
+    data-aos-offset="400"
+    data-aos-duration="1000">
       <Contact />
       </div>
       {/* <div className="a container">
