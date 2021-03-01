@@ -39,7 +39,7 @@ function App() {
     >
       <Education />
       </div>
-      <div className="a" id="projects">
+      <div className="a" id="projects" tabindex="-1" id="myh2">
         <Projects/>
         {/* <Projectsmath/> */}
       </div>
