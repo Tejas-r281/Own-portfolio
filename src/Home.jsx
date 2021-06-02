@@ -7,7 +7,7 @@ function downloadFile() {
     document.body.appendChild(link);
     link.target = "_rausn";
     link.href =
-      "https://drive.google.com/file/d/152UcnGksOdFpdwk54dKTo_sjXZFZ_WyY/view?usp=sharing";
+      "https://drive.google.com/file/d/1C_RVucC-mtWitIG7qofe5nYwR0kDZILv/view?usp=sharing";
     link.download = "";
     link.click();
 }
