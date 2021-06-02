@@ -6,7 +6,8 @@ function downloadFile() {
     var link = document.createElement('a');
     document.body.appendChild(link);
     link.target = "_rausn";
-    link.href = "https://drive.google.com/file/d/14XDxwxShxGTbnTFzZNmU7x62hoJgzLir/view?usp=sharing";
+    link.href =
+      "https://drive.google.com/file/d/152UcnGksOdFpdwk54dKTo_sjXZFZ_WyY/view?usp=sharing";
     link.download = "";
     link.click();
 }
