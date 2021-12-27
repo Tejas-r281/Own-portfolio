@@ -13,7 +13,8 @@ This portfolio divided into 7 components
 * Footer 
 
 ### home section 
-![Screenshot (3662)](https://user-images.githubusercontent.com/63423567/147509681-52c3b79d-7662-44e1-a0fe-81831c6b7129.png)
+![Screenshot (3667)](https://user-images.githubusercontent.com/63423567/147509942-93194216-bed1-4cc8-8daa-dde6383d98c6.png)
+
 ### Skills
 ![Screenshot (3663)](https://user-images.githubusercontent.com/63423567/147509683-d3bc6c3d-b4cf-44e1-b406-05297bfadb3c.png)
 ### Education
