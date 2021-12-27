@@ -38,4 +38,29 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 Builds the app for production to the `build` folder.
 
-
+## I have also included some depencies for smooth running 
+```
+"dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.1",
+    "material-icons": "^0.5.3",
+    "material-ui": "^0.20.2",
+    "ngrok": "^3.4.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.2",
+    "router": "^1.3.5",
+    "web-vitals": "^1.1.0"
+  }
+  ```
+  
+   ## Contact
+ Linkdin - [Linkdin](https://www.linkedin.com/in/raushankumar43/)
+ 
+ 
+ Project Link: [Project-url](https://github.com/Tejas-r281/Own-portfolio)
