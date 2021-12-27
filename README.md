@@ -12,6 +12,15 @@ This portfolio divided into 7 components
 * Contact Me 
 * Footer 
 
+### home section 
+![Screenshot (3662)](https://user-images.githubusercontent.com/63423567/147509681-52c3b79d-7662-44e1-a0fe-81831c6b7129.png)
+### Skills
+![Screenshot (3663)](https://user-images.githubusercontent.com/63423567/147509683-d3bc6c3d-b4cf-44e1-b406-05297bfadb3c.png)
+### Education
+![Screenshot (3664)](https://user-images.githubusercontent.com/63423567/147509686-c713734f-cc9b-4006-8a66-ae37dc75153b.png)
+### Recent Projects
+![Screenshot (3665)](https://user-images.githubusercontent.com/63423567/147509690-562f1804-6842-436e-bfbf-1443626df61d.png)
+
 
 ### Built With
 
