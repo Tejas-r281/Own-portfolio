@@ -17,7 +17,7 @@ function About() {
                         <div className="col-lg-6 d-flex justify-content-center  flex-column align-items-center order-lg-1  cont  order-2">
                             <div className="upper text-black-50   ">
                                 <h2>
-                                    I am a IT sophomore at IIEST,Shibpur.I am a full stack web developer and currently learning Competitive programming using cpp.
+                                    I am a IT 3rd year student at IIEST,Shibpur.I am a full stack web developer and currently learning Competitive programming using cpp.
                         </h2>
                             </div>
                             <div className="lower  text-black-50">
